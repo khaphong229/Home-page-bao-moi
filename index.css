@@ -23,7 +23,7 @@ ul {
     /* height: 40px; */
 }
 .part1 .logo img{
-
+    cursor: pointer;
     height: 40px;
 
 }
