@@ -1,5 +1,8 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
+/* box-sizing: border-box; */
 }
 
 ul {
@@ -39,7 +42,7 @@ ul {
   position: absolute;
   border: 1px solid gray;
   left: -25px;
-  top: -5px;
+  top: 0px;
 }
 
 .part2 {
@@ -133,7 +136,7 @@ ul {
 }
 .box1 h2 {
   position: absolute;
-  top: 220px;
+  top: 235px;
 }
 .box1 h2:hover {
   color: rgb(8, 175, 178);
@@ -157,7 +160,7 @@ ul {
 }
 .box2 div h6 {
   position: absolute;
-  bottom: -35px;
+  bottom: -12px;
   font-size: 10px;
 }
 
@@ -177,7 +180,7 @@ ul {
 .box3 div h6 {
   position: absolute;
   left: 45px;
-  top: -24px;
+  top: 0px;
 }
 .box3 div h6:hover {
   color: rgb(8, 175, 178);
